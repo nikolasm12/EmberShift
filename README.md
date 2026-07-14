@@ -4,6 +4,10 @@ EmberShift is a native macOS menu-bar app, currently built as **RedLight**, that
 
 The menu bar also provides temporary 15-minute, one-hour, and two-hour overrides without changing the underlying schedule.
 
+## Download
+
+Download the universal Apple Silicon/Intel DMG from the [latest GitHub release](https://github.com/nikolasm12/EmberShift/releases/latest). This free build is ad-hoc signed, so first launch requires right-clicking `RedLight.app` and choosing **Open**.
+
 RedLight has two rendering paths:
 
 - **Compatibility Overlay** is the default, requires no screen access, and uses almost no idle CPU.
