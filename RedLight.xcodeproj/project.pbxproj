@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* RedLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* RedLightApp.swift */; };
+		A10000000000000000000002 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppSettings.swift */; };
+		A10000000000000000000003 /* FilterProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* FilterProfile.swift */; };
+		A10000000000000000000004 /* ScreenOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ScreenOverlayController.swift */; };
+		A10000000000000000000005 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* LocationManager.swift */; };
+		A10000000000000000000006 /* SolarCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* SolarCalculator.swift */; };
+		A10000000000000000000007 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* ScheduleController.swift */; };
+		A10000000000000000000008 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* MenuBarView.swift */; };
+		A10000000000000000000009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* SettingsView.swift */; };
+		A1000000000000000000000A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* OnboardingView.swift */; };
+		A1000000000000000000000B /* GlobalHotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* GlobalHotKey.swift */; };
+		A1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Assets.xcassets */; };
+		A1000000000000000000000D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* PrivacyInfo.xcprivacy */; };
+		A1000000000000000000000E /* SolarCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* SolarCalculatorTests.swift */; };
+		A1000000000000000000000F /* ScheduleControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* ScheduleControllerTests.swift */; };
+		A10000000000000000000010 /* FilterProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* FilterProfileTests.swift */; };
+		A10000000000000000000012 /* DisplayFilterRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* DisplayFilterRenderer.swift */; };
+		A10000000000000000000013 /* ScreenCapturePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* ScreenCapturePermission.swift */; };
+		A10000000000000000000014 /* MetalFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* MetalFilterView.swift */; };
+		A10000000000000000000015 /* DisplayCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* DisplayCaptureSession.swift */; };
+		A10000000000000000000016 /* HighClarityRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001A /* HighClarityRenderer.swift */; };
+		A10000000000000000000017 /* RedLuminance.metal in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001B /* RedLuminance.metal */; };
+		A10000000000000000000018 /* RedLuminanceMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001C /* RedLuminanceMathTests.swift */; };
+		A10000000000000000000019 /* RendererCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001D /* RendererCoordinatorTests.swift */; };
+		A1000000000000000000001A /* DisplayPipelineDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001E /* DisplayPipelineDiagnostics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = RedLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* RedLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedLightApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* FilterProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProfile.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ScreenOverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOverlayController.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* SolarCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculator.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* GlobalHotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKey.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000000000000000000000D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B1000000000000000000000E /* SolarCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculatorTests.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* ScheduleControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleControllerTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* FilterProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProfileTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* RedLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000012 /* RedLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000014 /* RedLight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedLight.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000016 /* DisplayFilterRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFilterRenderer.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* ScreenCapturePermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCapturePermission.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* MetalFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalFilterView.swift; sourceTree = "<group>"; };
+		B10000000000000000000019 /* DisplayCaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCaptureSession.swift; sourceTree = "<group>"; };
+		B1000000000000000000001A /* HighClarityRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighClarityRenderer.swift; sourceTree = "<group>"; };
+		B1000000000000000000001B /* RedLuminance.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RedLuminance.metal; sourceTree = "<group>"; };
+		B1000000000000000000001C /* RedLuminanceMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedLuminanceMathTests.swift; sourceTree = "<group>"; };
+		B1000000000000000000001D /* RendererCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendererCoordinatorTests.swift; sourceTree = "<group>"; };
+		B1000000000000000000001E /* DisplayPipelineDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPipelineDiagnostics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		F10000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000003 /* RedLight */,
+				D1000000000000000000000A /* RedLightTests */,
+				D1000000000000000000000B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* RedLight */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000004 /* App */,
+				D10000000000000000000005 /* Models */,
+				D10000000000000000000006 /* Filter */,
+				D10000000000000000000007 /* Location */,
+				D10000000000000000000008 /* Scheduling */,
+				D10000000000000000000009 /* UI */,
+				D1000000000000000000000C /* Hotkeys */,
+				D1000000000000000000000E /* Permissions */,
+				B1000000000000000000000C /* Assets.xcassets */,
+				B1000000000000000000000D /* PrivacyInfo.xcprivacy */,
+				B10000000000000000000013 /* Info.plist */,
+				B10000000000000000000014 /* RedLight.entitlements */,
+			);
+			path = RedLight;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* App */ = {isa = PBXGroup; children = (B10000000000000000000001 /* RedLightApp.swift */,); path = App; sourceTree = "<group>"; };
+		D10000000000000000000005 /* Models */ = {isa = PBXGroup; children = (B10000000000000000000002 /* AppSettings.swift */,); path = Models; sourceTree = "<group>"; };
+		D10000000000000000000006 /* Filter */ = {isa = PBXGroup; children = (B10000000000000000000003 /* FilterProfile.swift */, B10000000000000000000004 /* ScreenOverlayController.swift */, B10000000000000000000016 /* DisplayFilterRenderer.swift */, D1000000000000000000000D /* HighClarity */,); path = Filter; sourceTree = "<group>"; };
+		D10000000000000000000007 /* Location */ = {isa = PBXGroup; children = (B10000000000000000000005 /* LocationManager.swift */,); path = Location; sourceTree = "<group>"; };
+		D10000000000000000000008 /* Scheduling */ = {isa = PBXGroup; children = (B10000000000000000000006 /* SolarCalculator.swift */, B10000000000000000000007 /* ScheduleController.swift */,); path = Scheduling; sourceTree = "<group>"; };
+		D10000000000000000000009 /* UI */ = {isa = PBXGroup; children = (B10000000000000000000008 /* MenuBarView.swift */, B10000000000000000000009 /* SettingsView.swift */, B1000000000000000000000A /* OnboardingView.swift */,); path = UI; sourceTree = "<group>"; };
+		D1000000000000000000000A /* RedLightTests */ = {isa = PBXGroup; children = (B1000000000000000000000E /* SolarCalculatorTests.swift */, B1000000000000000000000F /* ScheduleControllerTests.swift */, B10000000000000000000010 /* FilterProfileTests.swift */, B1000000000000000000001C /* RedLuminanceMathTests.swift */, B1000000000000000000001D /* RendererCoordinatorTests.swift */, B1000000000000000000001E /* DisplayPipelineDiagnostics.swift */,); path = RedLightTests; sourceTree = "<group>"; };
+		D1000000000000000000000B /* Products */ = {isa = PBXGroup; children = (B10000000000000000000011 /* RedLight.app */, B10000000000000000000012 /* RedLightTests.xctest */,); name = Products; sourceTree = "<group>"; };
+		D1000000000000000000000C /* Hotkeys */ = {isa = PBXGroup; children = (B1000000000000000000000B /* GlobalHotKey.swift */,); path = Hotkeys; sourceTree = "<group>"; };
+		D1000000000000000000000D /* HighClarity */ = {isa = PBXGroup; children = (B10000000000000000000018 /* MetalFilterView.swift */, B10000000000000000000019 /* DisplayCaptureSession.swift */, B1000000000000000000001A /* HighClarityRenderer.swift */, B1000000000000000000001B /* RedLuminance.metal */,); path = HighClarity; sourceTree = "<group>"; };
+		D1000000000000000000000E /* Permissions */ = {isa = PBXGroup; children = (B10000000000000000000017 /* ScreenCapturePermission.swift */,); path = Permissions; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* RedLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10000000000000000000011 /* Build configuration list for PBXNativeTarget "RedLight" */;
+			buildPhases = (F10000000000000000000003 /* Sources */, F10000000000000000000001 /* Frameworks */, F10000000000000000000005 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = RedLight;
+			productName = RedLight;
+			productReference = B10000000000000000000011 /* RedLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000002 /* RedLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10000000000000000000012 /* Build configuration list for PBXNativeTarget "RedLightTests" */;
+			buildPhases = (F10000000000000000000004 /* Sources */, F10000000000000000000002 /* Frameworks */,);
+			buildRules = ();
+			dependencies = (C10000000000000000000002 /* PBXTargetDependency */,);
+			name = RedLightTests;
+			productName = RedLightTests;
+			productReference = B10000000000000000000012 /* RedLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E10000000000000000000001 = {CreatedOnToolsVersion = 26.6; };
+					E10000000000000000000002 = {CreatedOnToolsVersion = 26.6; TestTargetID = E10000000000000000000001; };
+				};
+			};
+			buildConfigurationList = D10000000000000000000010 /* Build configuration list for PBXProject "RedLight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = D10000000000000000000002;
+			productRefGroup = D1000000000000000000000B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* RedLight */, E10000000000000000000002 /* RedLightTests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000C /* Assets.xcassets in Resources */, A1000000000000000000000D /* PrivacyInfo.xcprivacy in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004,
+			A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008,
+			A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A10000000000000000000012,
+			A10000000000000000000013, A10000000000000000000014, A10000000000000000000015, A10000000000000000000016,
+			A10000000000000000000017,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		F10000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000E, A1000000000000000000000F, A10000000000000000000010, A10000000000000000000018, A10000000000000000000019, A1000000000000000000001A,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C10000000000000000000002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E10000000000000000000001 /* RedLight */; targetProxy = C10000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		110000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 6.0;}; name = Debug;};
+		110000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 6.0;}; name = Release;};
+		110000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+			CODE_SIGN_ENTITLEMENTS = RedLight/RedLight.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			ENABLE_APP_SANDBOX = YES;
+			ENABLE_HARDENED_RUNTIME = YES;
+			ENABLE_TESTABILITY = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = RedLight/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.nick.RedLight;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = macosx;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		}; name = Debug;};
+		110000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_ACCENT_COLOR_NAME = AccentColor;
+			CODE_SIGN_ENTITLEMENTS = RedLight/RedLight.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			ENABLE_APP_SANDBOX = YES;
+			ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = RedLight/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.nick.RedLight;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = macosx;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+		}; name = Release;};
+		110000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			GENERATE_INFOPLIST_FILE = YES;
+			MACOSX_DEPLOYMENT_TARGET = 15.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.nick.RedLightTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = macosx;
+			SWIFT_VERSION = 6.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedLight.app/Contents/MacOS/RedLight";
+		}; name = Debug;};
+		110000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			GENERATE_INFOPLIST_FILE = YES;
+			MACOSX_DEPLOYMENT_TARGET = 15.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.nick.RedLightTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = macosx;
+			SWIFT_VERSION = 6.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedLight.app/Contents/MacOS/RedLight";
+		}; name = Release;};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10000000000000000000010 /* Build configuration list for PBXProject "RedLight" */ = {isa = XCConfigurationList; buildConfigurations = (110000000000000000000001, 110000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+		D10000000000000000000011 /* Build configuration list for PBXNativeTarget "RedLight" */ = {isa = XCConfigurationList; buildConfigurations = (110000000000000000000003, 110000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+		D10000000000000000000012 /* Build configuration list for PBXNativeTarget "RedLightTests" */ = {isa = XCConfigurationList; buildConfigurations = (110000000000000000000005, 110000000000000000000006,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}
